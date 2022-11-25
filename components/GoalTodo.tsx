@@ -18,7 +18,7 @@ const GoalTodo: FC<GoalTodoProps> = (props) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <div className="collapse w-[96vw] lg:xw-[80vw] xl:w-[60vw] my-4 text-3xl shadow-xl card bg-base-200">
+    <div className="collapse w-[96vw] lg:xw-[80vw] xl:w-[60vw] my-4 text-2xl xl:text-3xl shadow-xl card bg-base-200">
       {modalOpen && (
         <EditModal
           checked={modalOpen}
